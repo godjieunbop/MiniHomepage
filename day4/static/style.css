@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    width:960px;
+    margin:0 auto;
+    overflow: hidden;
+}
+#left{
+    width:260px;
+    float: left;
+}
+h1, h2{
+    margin:20px;
+    color:#bbe309;
+    font-family: 'IM_Hyemin-Bold';
+}
+#right{
+    width:700px;
+    float:right;
+}
+.content{
+    border:10px;
+}
+li{
+    list-style: none;
+    margin:10px;
+}
+@media screen and (max-width:767px) {
+    body {width:auto}
+    #left{width:auto; float: none;}
+    #right{width:auto; float: none;}
+}
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

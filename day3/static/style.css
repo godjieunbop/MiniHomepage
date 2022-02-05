@@ -1,0 +1,53 @@
+#header{
+    width:1000px; margin:0 auto;
+}
+#wrap{
+    width:1000px; margin:0 auto;
+    overflow: hidden;
+}
+#content{
+    width:700px; float:left;
+}
+p{
+    font-size:14px;
+}
+#aside{
+    width:300px; float:left;
+}
+#guho{
+    color: #bbe309;
+    font-family: 'IM_Hyemin-Bold';
+}
+th{
+    text-align: center;
+    padding:10px;
+    background: #fef666;
+    color:#3dc9f4;
+}
+td{
+    text-align: center;
+}
+.main_title {
+    font-family: 'Gugi', cursive;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: bold;
+    height: 15px;
+}
+blockquote {
+width: auto;
+background: #eee;
+border: dashed 2px #ccc;
+border-left: 5px solid #71bc6d;
+padding: 0.2em;
+margin: 1em 0;
+font-family: 'East Sea Dokdo', cursive;
+font-size: 28px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

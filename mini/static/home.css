@@ -1,0 +1,147 @@
+.box-title {
+    font-family: "KOTRA_BOLD-Bold";
+    border-bottom: 1.5px solid grey;
+    color: #99CCFF;
+    text-shadow: 1px 1px 0px black;
+}
+.news-flex-box {
+    flex: 0 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    font-size: 0.8rem;
+}
+.news-box {
+    flex: 1;
+}
+.update-box {
+    flex: 1;
+}
+.miniroom {
+    flex: 1;
+}
+
+.news-row {
+    display: flex;
+    font-size: 0.85rem;
+    margin: 3px 0;
+}
+.news-category {
+    padding: 0 6px;
+    margin-right: 6px;
+    color: white;
+    border-radius: 3px;
+    font-family: 'PFStardust';
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+.news-title{
+    font-family: 'kyobohand';
+    font-size: 0.9rem;
+}
+.category-diary {
+    background-color: #ffff00;
+    color: #000000;
+}
+.category-pic {
+    background-color: #f2625e;
+}
+.category-post {
+    background-color: #667ac1;
+}
+.menu-row {
+    display: flex;
+    border-bottom: 1px dashed grey;
+    margin: 3px 0;
+}
+.menu-item {
+    flex: 1;
+    font-family: 'PFStardust';
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+.menu-num {
+    font-family: "NeoDunggeunmo";
+    padding-left: 6px;
+    color: #003399;
+}
+.miniroom-gif-box {
+    border: 1.5px dashed #99CCFF;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+}
+.miniroom-gif-box > img {
+    width: 100%;
+}
+
+/* .content-main{
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+}
+.content-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    line-height: 15px;
+    font-size: 0.9rem;
+}
+.content{
+    flex: 0.5;
+    flex-direction: column;
+    margin-top: 5px;
+    font-family: 'KyoboHand';
+}
+.content-diary{
+    color: #000000;
+    background-color: #ffff00;
+    padding: 0px 6px;
+    border-radius: 3px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.content-photo{
+    color: #ffffff;
+    background-color: #f2625e;
+    padding: 0px 13px;
+    border-radius: 3px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.content-board{
+    color: #ffffff;
+    background-color: #667ac1;
+    padding: 0px 13px;
+    border-radius: 3px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.content-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.content-right-list{
+    flex: 0.2;
+    display: flex;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    border-bottom: 1px dashed #a3a3a3;
+    font-family: 'Stylish', sans-serif;
+}
+.content1{
+    flex: 0.5;
+    display: flex;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.content-num{
+    color: #667ac1;
+}
+.miniroom-img{
+    border: 2px solid #99CCFF;
+} */

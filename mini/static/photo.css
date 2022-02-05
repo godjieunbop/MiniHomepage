@@ -1,0 +1,43 @@
+.photo-box {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    overflow: auto;
+}
+.photo-box-content {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.photo-row {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.photo-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px 20px;
+    font-size: 1rem;
+    background-color: #99CCFF;
+}
+.photo-title-day {
+    font-family: 'PFStardust';
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.photo-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.photo-content {
+    padding-left: 25px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+.photo-image > img {
+    width: 100%;
+}
